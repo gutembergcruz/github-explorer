@@ -48,7 +48,7 @@ export const Form = styled.form`
 export const Repositories = styled.div`
     margin-top: 80px;
     max-width: 700px;
-
+    
     a{
         background: #fff;
         border-radius: 5px;
@@ -58,6 +58,13 @@ export const Repositories = styled.div`
         
         display: flex;
         align-items: center;
+        transition: 0.3s;
+
+        & + a { margin-top: 16px}
+
+    &:hover{
+        transform: translateX(10px);
+    }
     }
 
     img{
@@ -80,4 +87,10 @@ export const Repositories = styled.div`
             margin-top: 4px;
         }
     }
+
+    svg{
+        margin-left: auto;
+        color: #cbcbd6;
+    }
+
 `;
