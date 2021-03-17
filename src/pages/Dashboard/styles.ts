@@ -75,7 +75,6 @@ export const Repositories = styled.div`
     &:hover{
         transform: translateX(10px);
     }
-    }
 
     img{
         width: 64px;
